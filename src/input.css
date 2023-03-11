@@ -33,7 +33,7 @@
       padding: 2rem;
     } 
     .hero{
-      background-image: url("../images/landing.jpg");
+      background-image: url("images/landing.jpg");
       background-size: cover;
   
     }
