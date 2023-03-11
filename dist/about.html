@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <nav class="nav text-secondary font-bold pb-8 pt-8 md:pl-24 lg:pl-36">
+    <ul>
+      <li>
+        <a href="index.html">home</a>
+      </li>
+      <li>
+        <a href="services.html">services</a>
+      </li>
+      <li>
+        <a class="underline" href="about.html">about us</a>
+      </li>
+    </ul>
+
+  </nav>
+  <body class="bg-gradient-to-b from-darker-blue to-dark-blue min-h-[100vh]">
+    <main>
+      <!-- component -->
+      <section class="justify-center">
+        <div class="min-w-[320px]">
+
+          <div class="banner flex flex-col justify-center items-center">
+            <picture class="int-hero -z-10 top-[88px] overflow-hidden max-h-[33vh]">
+              <source media="(max-width: 640px)" srcset="../images/services-mobile.jpg" />
+              <source media="(min-width: 641px)" srcset="../images/services.jpg " />
+              <img
+                aria-hidden="true"
+                decoding="async"
+                src="../images/services.jpg"
+                alt="landing page"
+              />
+            </picture>
+                <div class="sm:absolute flex flex-col justify-center bg-darker-blue sm:border sm:rounded-3xl border-primary sm:max-w-[608px] p-8 sm:pl-24 sm:pr-24 md:m-12 md:pl-12 md:pr-12">
+                  <div class="text-primary">
+                    <h1 class="int-heading text-primary text-4xl mb-2">About Us</h1>
+                    <p class="text-center">Proudly Serving You Since 2020 - Experience the Future of 3D Printing with Us!</p>
+                  </div>
+
+                </div>
+          </div>
+      </section>
+      <section class="content about flex flex-col text-secondary max-w-[800px] w-full m-auto p-6 sm:p-24">
+        <p>Our company is a leading provider of 3D printing services, offering high-quality and affordable printing solutions to businesses and individuals alike. Our team of experts is passionate about 3D printing and dedicated to delivering the best results for our customers.</p>
+        <p>We have years of experience in the industry and have worked with a wide range of clients, from startups to Fortune 500 companies. Our expertise in 3D printing, product design, and CAD modeling allows us to provide comprehensive solutions that meet the needs of our clients.</p>
+        <p>At our core, we believe in the power of innovation and creativity. We are constantly exploring new ways to push the boundaries of 3D printing and help our clients bring their ideas to life. Our commitment to excellence and customer satisfaction has earned us a reputation as a trusted and reliable partner.</p>
+        <p>Our facilities are equipped with the latest technology and state-of-the-art equipment, allowing us to produce high-quality prints quickly and efficiently. We use only the best materials and are committed to sustainability, minimizing waste and maximizing efficiency.</p>
+        <p>We are proud of the work we do and the impact we have on the industry. Our mission is to provide the highest quality 3D printing services and to help our clients succeed in their endeavors. Thank you for choosing us as your partner in 3D printing.</p>
+      </section>
+    </main>
+  </body>
+</html>
