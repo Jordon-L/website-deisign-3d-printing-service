@@ -2,4 +2,4 @@
 
 A website for a 3d printing service.
 
-This was created using Midjourney to generate a website design and then implemented in HTML, CSS and JavaScript.
+This was created using Midjourney to generate a website design and then built using HTML, CSS and JavaScript.
